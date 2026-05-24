@@ -88,9 +88,9 @@ npm run dev
 
 Live Link:
 
-```
-YOUR_DEPLOYED_LINK
-```
+
+https://stop-watch-timer-rq6s.vercel.app/
+
 
 GitHub Repository:
 
