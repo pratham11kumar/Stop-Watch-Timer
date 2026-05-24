@@ -1,16 +1,113 @@
-# React + Vite
+# ⏱ Stopwatch & Timer App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based Stopwatch and Timer application built for Web Dev Cohort 2026. The app provides stopwatch and countdown timer functionality with a clean UI, responsive design, and smooth user experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+### Stopwatch
+- Start stopwatch
+- Pause stopwatch
+- Reset stopwatch
+- HH:MM:SS time format
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### Timer
+- Custom time input
+- Start countdown
+- Pause countdown
+- Reset timer
+- Clear time display
 
-## Expanding the ESLint configuration
+### UI & UX
+- Responsive design
+- Bhagwa + Light Green theme
+- Clean component structure
+- Mobile friendly interface
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- React
+- JavaScript
+- CSS
+- Vite
+
+---
+
+## 📂 Folder Structure
+
+```bash
+src/
+├── components/
+│   ├── Stopwatch.jsx
+│   ├── Timer.jsx
+│   └── TimeDisplay.jsx
+│
+├── styles/
+│   ├── App.css
+│   ├── Stopwatch.css
+│   └── Timer.css
+│
+├── App.jsx
+└── main.jsx
+```
+
+---
+
+## ⚙ Installation
+
+Clone repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_LINK
+```
+
+Go into project folder:
+
+```bash
+cd StopWatchTimer
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start development server:
+
+```bash
+npm run dev
+```
+
+---
+
+## 🌐 Live Demo
+
+Live Link:
+
+```
+YOUR_DEPLOYED_LINK
+```
+
+GitHub Repository:
+
+
+https://github.com/pratham11kumar/Stop-Watch-Timer
+
+
+
+
+## 🎯 Learning Outcomes
+
+- React Hooks
+- State Management
+- Time handling using setInterval
+- Component architecture
+- Responsive UI design
+
+---
+
+Built with ❤️ using React
